@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>  Our Calculator </h1>
+
+    <div class="display"><p id="output">0</p></div>
+
+
+    <div class="first-row">
+        <button id="all-clear" onclick="allClear()" style="width: 138px;">AC</button>
+        <button id="percent" onclick="percentage()">%</button>
+        <button id="divide" value="/" onclick="toDisplay('/')">/</button>
+    </div>
+
+    <div class="second-row">
+        <button id="seven" value="7" onclick="toDisplay('7')">7</button>
+        <button id="eight" value="8" onclick="toDisplay('8')">8</button>
+        <button id="nine" value="9" onclick="toDisplay('9')">9</button>
+        <button id="times" value="X" onclick="toDisplay('*')">X</button>
+    </div>
+
+    <div class="third-row">
+        <button id="four" value="4" onclick="toDisplay('4')">4</button>
+        <button id="five" value="5" onclick="toDisplay('5')">5</button>
+        <button id="six" value="6" onclick="toDisplay('6')">6</button>
+        <button id="minus" value="-" onclick="toDisplay('-')">-</button>
+    </div>
+
+    <div class="fourth-row">
+        <button id="one" value="1" onclick="toDisplay('1')">1</button>
+        <button id="two" value="2" onclick="toDisplay('2')">2</button>
+        <button id="three" value="3" onclick="toDisplay('3')">3</button>
+        <button id="plus" value="+" onclick="toDisplay('+')">+</button>
+    </div>
+
+    <div class="fifth-row">
+        <button id="zero" value="0" onclick="toDisplay('0')" style="width: 138px";>0</button>
+        <button id="decimal" value="." onclick="toDisplay('.')">.</button>
+        <button id="equals" value="=" onclick="solveIt()">=</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

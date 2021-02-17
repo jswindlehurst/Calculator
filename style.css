@@ -1,0 +1,29 @@
+
+.display {
+    background-color: grey;
+    padding: 15px;
+    width: 250px;
+    text-align: right;
+    font-size: 20px;
+    border: 10px black;
+}
+
+button {
+    background-color: grey;
+    padding: 10px;
+    width: 67px;
+    height: 45px;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+button:hover {
+
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+button:active {
+    background-color: lightgrey;
+}
